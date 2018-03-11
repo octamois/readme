@@ -23,6 +23,10 @@ Surprisingly, such approach still works in services like news portals. When you 
 At a time, there are only a few hot topics and there is a high chance that a user wants to read news that is read by the majority of other users.
 
 ## Case 2: Using a classifier to make recommendation
+
+<p align="center">
+  <img src="./tyme.png" alt="Recommendation Engine">
+</p>
 We already know lots of classification algorithms. Let’s see how we can use the same technique to make recommendations. Classifiers are parametric solutions so we just need to define some parameters (features) of the user and the item. The outcome can be  `1` if the user likes it or  `0` otherwise. This might work out in some cases because of following advantages:
 
 1. Incorporates personalization
