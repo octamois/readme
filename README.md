@@ -45,6 +45,9 @@ For instance, product recommendations by e-commerce player like Amazon and merch
 Further, there are several types of collaborative filtering algorithms: User-User, Item-Item, and et al.
 
 ## User-User Collaborative filtering
+<p align="center">
+  <img src="./user-user.png">
+</p>
 Here we find look-a-like customers (based on similarity) and offer products to the first customer that are similar to a look-a-like customer’s past behaviour. This algorithm is very effective but takes a lot of time and resources. It requires us to compute every customer information pair which takes time. Therefore, for big base platforms, this algorithm is hard to implement without a very strong parallelizable system.
 
 ## Item-Item Collaborative filtering
