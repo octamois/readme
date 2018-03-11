@@ -51,6 +51,9 @@ Further, there are several types of collaborative filtering algorithms: User-Use
 Here we find look-a-like customers (based on similarity) and offer products to the first customer that are similar to a look-a-like customer’s past behaviour. This algorithm is very effective but takes a lot of time and resources. It requires us to compute every customer information pair which takes time. Therefore, for big base platforms, this algorithm is hard to implement without a very strong parallelizable system.
 
 ## Item-Item Collaborative filtering
+<p align="center">
+  <img src="./item-item.jpg">
+</p>
 It is quite similar to the previous algorithm, but instead of finding alike customers, we try finding an alike item. Once we have the item look-a-like matrix, we can easily recommend alike items to customer who have purchased any item from the store. This algorithm is far less resource consuming than user-user collaborative filtering. Hence, for a new customer the algorithm takes far less time than the User-User Collaborate filtering as we don’t need all similarity scores between customers. And with fixed number of products the Product-Product look-a-like matrix is fixed over time.
 
 Other simpler algorithms: There are other approaches like market basket analysis, which generally do not have high predictive power than the algorithms described above.
