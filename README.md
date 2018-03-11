@@ -8,6 +8,10 @@
 Before taking a look at different types of recommendation engine, let’s take a step back and see if we can make some intuitive recommendations. Consider the following cases:
 
 ## Case 1: Recommend the most popular items
+<p align="center">
+  <img src="https://media.giphy.com/media/3bbcwarXienQzzWo5I/source.mp4" alt="Case-1"
+       >
+</p>
 A simple approach could be to recommend items which are liked by the most number of users. This is a blazing fast and dirty approach and thus has a major drawback. The thing is, there is no personalization involved with this approach.
 
 Basically, the most popular items would be identical for each user since popularity is against the entire user pool. So, everybody will see the same result. It sounds like, ‘a website recommending you to buy a microwave just because it’s been liked by other users and doesn’t care if you are even interested in buying or not’.
