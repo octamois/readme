@@ -59,4 +59,7 @@ It is quite similar to the previous algorithm, but instead of finding alike cust
 Other simpler algorithms: There are other approaches like market basket analysis, which generally do not have high predictive power than the algorithms described above.
 
 ## Hybrid recommendation systems 
+<p align="center">
+  <img src="./hybrid.png">
+</p>
 Hybrid recommendation systems combine both collaborative and content-based approaches. They help improve recommendations that are derived from sparse datasets. The Netflix algorithm is a prime example of a hybrid recommender.
