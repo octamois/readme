@@ -9,8 +9,8 @@ Before taking a look at different types of recommendation engine, let’s take a
 
 ## Case 1: Recommend the most popular items
 <p align="center">
-  <img src="https://media.giphy.com/media/3bbcwarXienQzzWo5I/source.mp4" alt="Case-1"
-       >
+  ![Yup](https://media.giphy.com/media/3bbcwarXienQzzWo5I/200w_d.gif)
+  
 </p>
 A simple approach could be to recommend items which are liked by the most number of users. This is a blazing fast and dirty approach and thus has a major drawback. The thing is, there is no personalization involved with this approach.
 
