@@ -1,4 +1,9 @@
-# Types of Recommendation Engine
+<p align="center">
+  <img src="./sys.png" alt="Recommendation Engine"
+       width="904" height="350">
+</p>
+
+<h1 align="center"> Types of Recommendation Engine </h1> <br>
 
 Before taking a look at different types of recommendation engine, let’s take a step back and see if we can make some intuitive recommendations. Consider the following cases:
 
