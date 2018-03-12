@@ -24,8 +24,8 @@ At a time, there are only a few hot topics and there is a high chance that a use
 
 ## Case 2: Using a classifier to make recommendation
 
-<p align="center">
-  <img src="./tyme.png" alt="Recommendation Engine">
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/2420688/29441234-a2028c98-837e-11e7-88f2-1ca5a94684f6.gif" alt="Recommendation Engine">
 </p>
 We already know lots of classification algorithms. Let’s see how we can use the same technique to make recommendations. Classifiers are parametric solutions so we just need to define some parameters (features) of the user and the item. The outcome can be  `1` if the user likes it or  `0` otherwise. This might work out in some cases because of following advantages:
 
