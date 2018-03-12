@@ -3,14 +3,11 @@
 
 <p align="center">
   <img src="./sys.png" alt="Recommendation Engine"
-       width="904" height="350">
+       width="534" height="200">
 </p>
 Before taking a look at different types of recommendation engine, let’s take a step back and see if we can make some intuitive recommendations. Consider the following cases:
 
 ## Case 1: Recommend the most popular items
-<p align="center">
-  <img src="./case-1.jpg">
-</p>
 A simple approach could be to recommend items which are liked by the most number of users. This is a blazing fast and dirty approach and thus has a major drawback. The thing is, there is no personalization involved with this approach.
 
 Basically, the most popular items would be identical for each user since popularity is against the entire user pool. So, everybody will see the same result. It sounds like, ‘a website recommending you to buy a microwave just because it’s been liked by other users and doesn’t care if you are even interested in buying or not’.
@@ -35,7 +32,7 @@ It can work even if the user’s past history is short or not available. However
 Now let’s come to the special class of algorithms which are tailor-made for solving the recommendation problem. There are typically two types of algorithms – Content Based and Collaborative Filtering. You should refer to our previous article to get a complete sense of how they work. I’ll give a short recap here.
 
 ## Content based algorithms
-<p align="center">
+<p align="center"
   <img src="./content-based.jpg">
 </p>
 Idea: If you like an item then you will also like a “similar” item. This is based on the similarity of the items being recommended.
