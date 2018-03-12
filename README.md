@@ -61,7 +61,7 @@ The engine has a '''.train()''' method that runs TF-IDF across the input product
 
 The engine code in its entirety is below.
 Some basic Git commands are:
-```
+```python
 import pandas as pd
 import time
 import redis
