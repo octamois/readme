@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./sentiment.jpeg" alt="Recommendation Engine"
-       width="704" height="350">
-</p>
 
 <h1 align="center"> Types of Recommendation Engine </h1> <br>
 
